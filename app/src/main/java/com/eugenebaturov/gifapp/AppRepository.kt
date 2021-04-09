@@ -2,7 +2,6 @@ package com.eugenebaturov.gifapp
 
 import android.content.Context
 import com.eugenebaturov.gifapp.model.entities.Data
-import com.eugenebaturov.gifapp.model.entities.Gif
 import com.eugenebaturov.gifapp.model.instance.RetrofitInstance
 import com.eugenebaturov.gifapp.util.constants.LogsConstants.Companion.REPOSITORY_ERROR_MESSAGE
 import retrofit2.Response

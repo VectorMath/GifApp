@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.eugenebaturov.gifapp.AppRepository
 import com.eugenebaturov.gifapp.model.entities.Data
-import com.eugenebaturov.gifapp.model.entities.Gif
 import kotlinx.coroutines.launch
 import retrofit2.Response
 

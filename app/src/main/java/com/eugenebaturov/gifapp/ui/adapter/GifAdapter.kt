@@ -24,7 +24,12 @@ class GifAdapter(var gifs: List<Gif>, var context: Context) :
         fun bind(gif: Gif) {
 
             this.gif = gif
-            Glide.with(itemView).asGif().load(this.gif.url).into(gifImageView)
+
+            Glide
+                .with(context)
+                .load(this.gif.images.original.url)
+                .error(R.drawable.test)
+                .into(gifImageView)
             gifTitleTextView.text = this.gif.slug
         }
     }

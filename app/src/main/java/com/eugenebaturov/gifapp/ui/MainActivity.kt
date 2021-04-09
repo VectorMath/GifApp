@@ -83,6 +83,6 @@ class MainActivity : AppCompatActivity() {
         adapter = GifAdapter(gifs, this)
         gifRecyclerView.adapter = adapter
 
-        Log.d(TAG_RESPONSE, gifs[0].url)
+        Log.d(TAG_RESPONSE, gifs[0].images.original.url)
     }
 }

@@ -1,12 +1,10 @@
 package com.eugenebaturov.gifapp.model.api
 
 import com.eugenebaturov.gifapp.model.entities.Data
-import com.eugenebaturov.gifapp.model.entities.Gif
 import com.eugenebaturov.gifapp.util.constants.GiphyConstants
 import com.eugenebaturov.gifapp.util.constants.GiphyConstants.Companion.GIFS_URL
 import retrofit2.Response
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface GiphyAPI {
